@@ -11,7 +11,7 @@ public class Remove_element {
         }
         for (int i = 0; i < nums.length; i++) {
             if(nums[i] != result.charAt(0)) {
-                System.out.print(nums[i] + " "); // print the elements that are not equal to val
+                System.out.print(nums[i] + " ");
             }
         }
     }
