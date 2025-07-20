@@ -8,12 +8,12 @@
 
 public class Array {
     public static void main(String[] args) {
-        int arr[] = new int[5]; // array of size 5
-        arr[0] = 10; // assigning value to first element
-        arr[1] = 30; // assigning value to second element   
-        arr[2] = 20; // assigning value to third element
-        arr[3] = 40; // assigning value to fourth element
-        arr[4] = 50; // assigning value to fifth element
+        int arr[] = new int[5];
+        arr[0] = 10;
+        arr[1] = 30;    
+        arr[2] = 20; 
+        arr[3] = 40; 
+        arr[4] = 50; 
         for(int i = 0; i < arr.length; i++) {
             for(int j = i + 1; j < arr.length; j++) {
                 if(arr[i] > arr[j]) { // sorting in ascending order
