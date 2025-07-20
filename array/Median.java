@@ -1,12 +1,6 @@
 public class Median {
     public static void main(String[] args) {
-        // int arr1[] = new int[]; // array of size 2
-        // arr1[0] = 1; // assigning value to first element
-        // arr1[1] = 3; // assigning value to second element
-        // int arr2[] = new int[]; // array of size 2
-        // arr2[0] = 2; // assigning value to first element
-        // // arr2[1] = 2; // assigning value to second element
-
+        
         int arr1[] = {1, 2}; // first array with two elements
         int arr2[] = {3, 4}; // second array with one element
 
